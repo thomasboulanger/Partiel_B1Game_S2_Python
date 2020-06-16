@@ -18,7 +18,6 @@ mot_en_lettre = list(mot)
 vide = []
 
 print("mot choisi , il a {} lettres a toi de les trouver !\n".format(len(mot)))
-print(mot)
 
 for i in range(len(mot)):
         print("_ ")  # a voir plus tard le saut de ligne...
