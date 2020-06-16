@@ -19,8 +19,8 @@ vide = []
 
 print("mot choisi , il a {} lettres a toi de les trouver !\n".format(len(mot)))
 
-for i in range(len(mot)):
-        print("_ ")  # a voir plus tard le saut de ligne...
+for i in range(len(mot_en_lettre)):
+        print("_")  # a voir plus tard le saut de ligne...
 while win != True and compteur <= 8:
     if compteur >=8:
         print("c est perdu ! (c etait ",mot,")...")
